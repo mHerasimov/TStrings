@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">TimeSavior</string>
+    <string name="app_version">v0.1.0-beta</string>
+    <string name="app_author_name">Олег Герасімов</string>
+    <string name="app_author_about">Я 21-річний розробник з Дрогобича, Україна. 
+        До моїх захоплень входять історична література, відео-ігри, метал-музика та кулінарія.
+        На даний момент шукаю роботу, Ви можете сконтактуватись зі мною на Facebook, якщо бажаєте найняти мене.</string>
+    <string name="app_author_position">Менеджер та Розробник проекту</string>
+    <string name="drawer_open">Відкрити navigation drawer</string>
+    <string name="drawer_close">Закрити navigation drawer</string>
+
+    <!-- about category-->
+    <string name="about_category_support_development">Підтримка проекту</string>
+
+    <!-- about titles -->
+    <string name="about_title_translate">Перекласти</string>
+    <string name="about_title_join_group_on_facebook">Приєднатися до групи на Facebook</string>
+
+    <!-- about captions -->
+    <string name="about_caption_translate">Допоможіть нам перекласти TimeSavior на більше мов</string>
+    <string name="about_caption_join_group_on_facebook">Приєднуйтесь до групи на Facebook та дізнавайтесь першими про усі оновлення</string>
+
+    <!-- setting category -->
+    <string name="setting_category_theme">Тема</string>
+
+    <!-- setting titles -->
+    <string name="setting_title_basic_theme">Основна тема</string>
+    <string name="setting_title_primary_color">Основний колір</string>
+    <string name="setting_title_accent_color">Колір акценту</string>
+    <string name="setting_title_obscured_status_bar">Затемнена панель стану</string>
+    <string name="setting_title_colored_navigation_bar">Кольорова панель навігації</string>
+
+    <!-- setting captions -->
+    <string name="setting_caption_basic_theme">Виберіть основну тему.</string>
+    <string name="setting_caption_primary_color">Основний колір, який буде використовуватися в інтерфейсі користувача.</string>
+    <string name="setting_caption_accent_color">Додатковий колір, який використовується для відтінку віджетів та деталей інтерфейсу користувача.</string>
+    <string name="setting_caption_obscured_status_bar">Застосувати темний основний колір до панелі сповіщень.</string>
+    <string name="setting_caption_colored_navigation_bar">Застосувати основний колір до панелі навігації.</string>
+
+    <!-- drawer items -->
+    <string name="settings">Налаштування</string>
+    <string name="timer">Таймер</string>
+    <string name="tags">Теги</string>
+    <string name="calendar">Календар</string>
+    <string name="statistics">Статистика</string>
+    <string name="about">Про програму</string>
+
+    <!-- dialog titles -->
+    <string name="dialog_title_create_tag">Створити тег</string>
+    <string name="dialog_title_edit_tag">Редагувати тег</string>
+    <string name="dialog_title_choose_color">Виберіть колір</string>
+    <string name="dialog_title_select_tag">Виберіть тег</string>
+    <string name="dialog_title_stop_task">Зупинити завдання</string>
+    <string name="dialog_title_select_date_range">Виберіть діапазон дат</string>
+    <string name="dialog_title_delete_task">Видалити завдання</string>
+    <string name="dialog_title_theme">Тема</string>
+    <string name="dialog_title_primary_color">Основний колір</string>
+    <string name="dialog_title_accent_color">Колір акценту</string>
+    <string name="dialog_title_warning">Попередження</string>
+
+    <!-- dialog text -->
+    <string name="dialog_text_stop_task">Ви впевнені, що бажаєте зупинити це завдання?</string>
+    <string name="dialog_text_delete_task">Ви впевнені, що бажаєте видалити це завдання?</string>
+
+    <!-- dialog buttons titles -->
+    <string name="dialog_btn_ok">Гаразд</string>
+    <string name="dialog_btn_cancel">Скасувати</string>
+    <string name="dialog_btn_yes">Так</string>
+    <string name="dialog_btn_no">Ні</string>
+    <string name="dialog_btn_edit">Редагувати</string>
+    <string name="dialog_btn_select">Вибрати</string>
+    <string name="dialog_btn_delete">Видалити</string>
+
+    <!-- placeholder strings -->
+    <string name="empty_timer">У Вас немає активного завдання</string>
+    <string name="none_selected">Нічого не вибрано</string>
+    <string name="no_title">Немає заголовка</string>
+    <string name="no_description">Немає опису для цього завдання</string>
+
+    <!-- button titles -->
+    <string name="create_new_task">Створити нове завдання</string>
+    <string name="create_new_tag">Створити новий тег</string>
+    <string name="select_tag">Вибрати тег</string>
+    <string name="start_task">Розпочати завдання</string>
+    <string name="stop_task">Зупинити завдання</string>
+    <string name="edit_task">Редагувати завдання</string>
+
+    <!-- spinner items -->
+    <string-array name="spinner_items">
+        <item>сьогодні</item>
+        <item>цей тиждень</item>
+        <item>цей місяць</item>
+        <item>вибірковий період</item>
+    </string-array>
+
+    <!-- theme names -->
+    <string name="theme_white">Світла</string>
+    <string name="theme_dark">Темна</string>
+
+    <!-- links -->
+    <string name="link_send_email">Надіслати листа</string>
+    <string name="link_linked_in">LinkedIn</string>
+    <string name="link_facebook">Facebook</string>
+
+    <!-- warning messages -->
+    <string name="warning_message_can_not_delete_tag">Ви не можете видалити тег, який використовувався принаймні 1 раз</string>
+    <string name="warning_message_incorrect_start_time">Початковий час повинен бути меншим за Кінцевий час</string>
+    <string name="warning_message_time_range_conflicts">Поточний Часовий Діапазон конфліктує з одним або кількома Часовими Діапазонами завдань цього дня</string>
+
+    <!-- time abbreviations NOTE max length limited to 8 symbols -->
+    <string name="time_abbr_hours">год</string>
+    <string name="time_abbr_minutes">хв</string>
+    <string name="time_abbr_seconds">сек</string>
+
+    <string name="name">назва</string>
+    <string name="color">Колір</string>
+    <string name="tag">Тег</string>
+    <string name="note">Нотатка</string>
+    <string name="title">Заголовок</string>
+    <string name="description">Опис</string>
+    <string name="edit">Редагувати</string>
+    <string name="delete">Видалити</string>
+    <string name="from">З</string>
+    <string name="to">До</string>
+    <string name="less">Менше</string>
+    <string name="more">Більше</string>
+
+    <string name="notification_title">Відстеження часу задання</string>
+    <string name="tap_to_choose_color">Натисніть, щоб обрати колір</string>
+    <string name="total_spent_time">Загальна кількість витраченого часу</string>
+    <string name="no_data_for_this_period">Немає даних для цього періоду</string>
+    <string name="select_action">Оберіть дію</string>
+    <string name="time_spent">Витрачений час</string>
+    <string name="time_range">Часовий діапазон</string>
+    <string name="date_range">Діапазон дат</string>
+    <string name="started_on">Розпочато в</string>
+    <string name="finished_on">Завершено в</string>
+    <string name="times_used">Разів використано</string>
+    <string name="in_percents">У відсотках</string>
+
+
+</resources>

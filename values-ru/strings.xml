@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">TimeSavior</string>
+    <string name="app_version">v0.1.0-beta</string>
+    <string name="app_author_name">Олег Герасимов</string>
+    <string name="app_author_about">Я 21-летний разработчик из города Дрогобыч, Украина. Увлекаюсь исторической литературой, видео-играми, металл-музыкой и, очевидно главнейшим из моих пристрастий - кулинарией.
+        Сейчас нахожусь в суперактивном поиске работы. При наличии интересных предложений по данной тематике можно сконтактироваться со мной на Facebook.</string>
+    <string name="app_author_position">Разработчик и менеджер проекта</string>
+    <string name="drawer_open">Открыть navigation drawer</string>
+    <string name="drawer_close">Закрыть navigation drawer</string>
+
+    <!-- about category-->
+    <string name="about_category_support_development">Поддержка проекта</string>
+
+    <!-- about titles -->
+    <string name="about_title_translate">Перевести</string>
+    <string name="about_title_join_group_on_facebook">Присоединиться к группе на Facebook</string>
+
+    <!-- about captions -->
+    <string name="about_caption_translate">Помогите нам перевести TimeSavior на другие языки </string>
+    <string name="about_caption_join_group_on_facebook">Присоединяйтесь к группе на Facebook и узнавайте первыми о всех обновлениях</string>
+
+    <!-- setting category -->
+    <string name="setting_category_theme">Тема</string>
+
+    <!-- setting titles -->
+    <string name="setting_title_basic_theme">Основная тема</string>
+    <string name="setting_title_primary_color">Основной цвет</string>
+    <string name="setting_title_accent_color">Акцентный цвет</string>
+    <string name="setting_title_obscured_status_bar">Затемненная панель состояния</string>
+    <string name="setting_title_colored_navigation_bar">Цветовая панель навигации</string>
+
+    <!-- setting captions -->
+    <string name="setting_caption_basic_theme">Выберите основную тему.</string>
+    <string name="setting_caption_primary_color">Основной цвет, используемый в интерфейсе пользователя.</string>
+    <string name="setting_caption_accent_color">Дополнительный цвет,используемый для оттенка виджетов и деталей интерфейса пользователя.</string>
+    <string name="setting_caption_obscured_status_bar">Применить темный основным цветом панели уведомлений.</string>
+    <string name="setting_caption_colored_navigation_bar">Применить основной цвет в панели навигации.</string>
+
+    <!-- drawer items -->
+    <string name="settings">Настройки</string>
+    <string name="timer">Таймер</string>
+    <string name="tags">Теги</string>
+    <string name="calendar">Календарь</string>
+    <string name="statistics">Статистика</string>
+    <string name="about">О программе</string>
+
+    <!-- dialog titles -->
+    <string name="dialog_title_create_tag">Создать тег</string>
+    <string name="dialog_title_edit_tag">Редактировать тег</string>
+    <string name="dialog_title_choose_color">Выбрать цвет</string>
+    <string name="dialog_title_select_tag">Выбрать тег</string>
+    <string name="dialog_title_stop_task">Остановить задание</string>
+    <string name="dialog_title_select_date_range">Выбрать диапазон дат</string>
+    <string name="dialog_title_delete_task">Удалить задание</string>
+    <string name="dialog_title_theme">Тема</string>
+    <string name="dialog_title_primary_color">Основной цвет</string>
+    <string name="dialog_title_accent_color">Акцентный цвет</string>
+    <string name="dialog_title_warning">Предупреждение</string>
+
+    <!-- dialog text -->
+    <string name="dialog_text_stop_task">Вы уверены, что хотите остановить это задание?</string>
+    <string name="dialog_text_delete_task">Вы уверены, что хотите удалить это задание?</string>
+
+    <!-- dialog buttons titles -->
+    <string name="dialog_btn_ok">Хорошо</string>
+    <string name="dialog_btn_cancel">Отменить</string>
+    <string name="dialog_btn_yes">Да</string>
+    <string name="dialog_btn_no">Нет</string>
+    <string name="dialog_btn_edit">Редактировать</string>
+    <string name="dialog_btn_select">Выбрать</string>
+    <string name="dialog_btn_delete">Удалить</string>
+
+    <!-- placeholder strings -->
+    <string name="empty_timer">У вас нет активного задания</string>
+    <string name="none_selected">Ничего не избрано</string>
+    <string name="no_title">Нет заголовка</string>
+    <string name="no_description">Нет описания этого задания</string>
+
+    <!-- button titles -->
+    <string name="create_new_task">Создать новое задание</string>
+    <string name="create_new_tag">Создать новый тег</string>
+    <string name="select_tag">Выбрать тег</string>
+    <string name="start_task">Запустить задание</string>
+    <string name="stop_task">Остановить задание</string>
+    <string name="edit_task">Редактировать задание</string>
+
+    <!-- spinner items -->
+    <string-array name="spinner_items">
+        <item>сегодня</item>
+        <item>эта неделя</item>
+        <item>этот месяц</item>
+        <item>выбранный период</item>
+    </string-array>
+
+    <!-- theme names -->
+    <string name="theme_white">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+
+    <!-- links -->
+    <string name="link_send_email">Написать письмо</string>
+    <string name="link_linked_in">LinkedIn</string>
+    <string name="link_facebook">Facebook</string>
+
+    <!-- warning messages -->
+    <string name="warning_message_can_not_delete_tag">Вы не можете удалить тег, использованный ранее хотя бы один раз</string>
+    <string name="warning_message_incorrect_start_time">Начальное время должно быть меньшим Конечного времени</string>
+    <string name="warning_message_time_range_conflicts">Поточный Временной диапазон конфликтует с одним или несколькими Временными диапазонами заданий этого дня</string>
+
+    <!-- time abbreviations NOTE max length limited to 8 symbols -->
+    <string name="time_abbr_hours">ч</string>
+    <string name="time_abbr_minutes">мин</string>
+    <string name="time_abbr_seconds">сек</string>
+
+    <string name="name">имя</string>
+    <string name="color">Цвет</string>
+    <string name="tag">Тег</string>
+    <string name="note">Заметка</string>
+    <string name="title">Заголовок</string>
+    <string name="description">Описание</string>
+    <string name="edit">Редактировать</string>
+    <string name="delete">Удалить</string>
+    <string name="from">От</string>
+    <string name="to">До</string>
+    <string name="less">Меньше</string>
+    <string name="more">Больше</string>
+
+    <string name="notification_title">Отслеживание времени задания</string>
+    <string name="tap_to_choose_color">Нажать, чтобы избрать цвет</string>
+    <string name="total_spent_time">Общее количество затраченного времени</string>
+    <string name="no_data_for_this_period">Нет данных для этого периода</string>
+    <string name="select_action">Выбрать действие</string>
+    <string name="time_spent">Затраченное время</string>
+    <string name="time_range">Часовой диапазон</string>
+    <string name="date_range">Диапазон дат</string>
+    <string name="started_on">Начато в</string>
+    <string name="finished_on">Завершено в</string>
+    <string name="times_used">Раз использовано</string>
+    <string name="in_percents">В процентах</string>
+
+
+</resources>

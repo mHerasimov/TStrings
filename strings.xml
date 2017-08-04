@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">TimeSavior</string>
+    <string name="app_version">v0.1.0-beta</string>
+    <string name="app_author_name">Mike Herasimov</string>
+    <string name="app_author_about">I\'m 21 years old developer from Drohobych, Ukraine.
+        I like historical literature, video games, metal music and cooking. Currently looking for a job,
+        so you can contact me on Facebook if you want to hire me</string>
+    <string name="app_author_position">Project Manager and Developer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- about category-->
+    <string name="about_category_support_development">Support development</string>
+
+    <!-- about titles -->
+    <string name="about_title_translate">Translate</string>
+    <string name="about_title_join_group_on_facebook">Join group on Facebook</string>
+
+    <!-- about captions -->
+    <string name="about_caption_translate">Help us translate TimeSavior in more languages</string>
+    <string name="about_caption_join_group_on_facebook">Join group on Facebook and stay up to date</string>
+
+    <!-- setting category -->
+    <string name="setting_category_theme">Theme</string>
+
+    <!-- setting titles -->
+    <string name="setting_title_basic_theme">Basic theme</string>
+    <string name="setting_title_primary_color">Primary color</string>
+    <string name="setting_title_accent_color">Accent color</string>
+    <string name="setting_title_obscured_status_bar">Translucent status bar</string>
+    <string name="setting_title_colored_navigation_bar">Colored navigation bar</string>
+
+    <!-- setting captions -->
+    <string name="setting_caption_basic_theme">Select a basic theme.</string>
+    <string name="setting_caption_primary_color">The main color to be used in the UI.</string>
+    <string name="setting_caption_accent_color">The secondary color which is used to tint widgets and UI details.</string>
+    <string name="setting_caption_obscured_status_bar">Apply a darker primary color to the notification bar.</string>
+    <string name="setting_caption_colored_navigation_bar">Apply the primary color to the navigation bar.</string>
+
+    <!-- drawer items -->
+    <string name="settings">Settings</string>
+    <string name="timer">Timer</string>
+    <string name="tags">Tags</string>
+    <string name="calendar">Calendar</string>
+    <string name="statistics">Statistics</string>
+    <string name="about">About</string>
+
+    <!-- dialog titles -->
+    <string name="dialog_title_create_tag">Create tag</string>
+    <string name="dialog_title_edit_tag">Edit tag</string>
+    <string name="dialog_title_choose_color">Choose color</string>
+    <string name="dialog_title_select_tag">Select tag</string>
+    <string name="dialog_title_stop_task">Stop task</string>
+    <string name="dialog_title_select_date_range">Select date range</string>
+    <string name="dialog_title_delete_task">Delete task</string>
+    <string name="dialog_title_theme">Theme</string>
+    <string name="dialog_title_primary_color">Primary color</string>
+    <string name="dialog_title_accent_color">Accent color</string>
+    <string name="dialog_title_warning">Warning</string>
+
+    <!-- dialog text -->
+    <string name="dialog_text_stop_task">Are you sure you want to stop this task?</string>
+    <string name="dialog_text_delete_task">Are you sure you want delete this task?</string>
+
+    <!-- dialog buttons titles -->
+    <string name="dialog_btn_ok">OK</string>
+    <string name="dialog_btn_cancel">Cancel</string>
+    <string name="dialog_btn_yes">Yes</string>
+    <string name="dialog_btn_no">No</string>
+    <string name="dialog_btn_edit">Edit</string>
+    <string name="dialog_btn_select">Select</string>
+    <string name="dialog_btn_delete">Delete</string>
+
+    <!-- placeholder strings -->
+    <string name="empty_timer">You haven\'t active task</string>
+    <string name="none_selected">None selected</string>
+    <string name="no_title">No title</string>
+    <string name="no_description">No description for this task</string>
+
+    <!-- button titles -->
+    <string name="create_new_task">Create new task</string>
+    <string name="create_new_tag">Create new tag</string>
+    <string name="select_tag">Select tag</string>
+    <string name="start_task">Start task</string>
+    <string name="stop_task">Stop task</string>
+    <string name="edit_task">Edit task</string>
+
+    <!-- spinner items -->
+    <string-array name="spinner_items">
+        <item>today</item>
+        <item>this week</item>
+        <item>this month</item>
+        <item>custom period</item>
+    </string-array>
+
+    <!-- theme names -->
+    <string name="theme_white">White</string>
+    <string name="theme_dark">Dark</string>
+
+    <!-- links -->
+    <string name="link_send_email">Send email</string>
+    <string name="link_linked_in">LinkedIn</string>
+    <string name="link_facebook">Facebook</string>
+
+    <!-- warning messages -->
+    <string name="warning_message_can_not_delete_tag">You can not delete tag that was used at least 1 time</string>
+    <string name="warning_message_incorrect_start_time">Start time should have smaller value than End time</string>
+    <string name="warning_message_time_range_conflicts">Current Time Range conflicts with one or more Time Ranges of Tasks of this day</string>
+
+    <!-- time abbreviations NOTE max length limited to 8 symbols -->
+    <string name="time_abbr_hours">h</string>
+    <string name="time_abbr_minutes">min</string>
+    <string name="time_abbr_seconds">sec</string>
+
+    <string name="name">name</string>
+    <string name="color">Color</string>
+    <string name="tag">Tag</string>
+    <string name="note">Note</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="less">Less</string>
+    <string name="more">More</string>
+
+    <string name="notification_title">Tracking time</string>
+    <string name="tap_to_choose_color">Tap to choose color</string>
+    <string name="total_spent_time">Total spent time</string>
+    <string name="no_data_for_this_period">No data for this period</string>
+    <string name="select_action">Select action</string>
+    <string name="time_spent">Time spent</string>
+    <string name="time_range">Time range</string>
+    <string name="date_range">Date range</string>
+    <string name="started_on">Started on</string>
+    <string name="finished_on">Finished on</string>
+    <string name="times_used">Times used</string>
+    <string name="in_percents">In percents</string>
+
+
+</resources>
